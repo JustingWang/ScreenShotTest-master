@@ -16,7 +16,7 @@ public class MyTest extends AppCompatActivity {
                 ViewGroup.LayoutParams.MATCH_PARENT));
         main.setOrientation(LinearLayout.HORIZONTAL);
         main.setGravity(Gravity.CENTER);
-
+        //提交
         TuyaView mDrawView = new TuyaView(this);
         mDrawView.setBackgroundColor(Color.BLUE);
         main.addView(mDrawView);
